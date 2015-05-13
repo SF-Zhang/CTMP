@@ -1,0 +1,17 @@
+#!bin/bash/sh
+
+if [ ! -a ~/bin/ ]; then
+    mkdir -p ~/bin/
+fi
+
+chmod 755 bin/CTMP
+
+cp bin/CTMP ~/bin/ -r
+
+echo
+echo -e  "========================="
+echo -e  "     Install Finished.   "
+echo -e  "    Have Fun with CTMP!  "
+echo -e  "========================="
+echo
+
